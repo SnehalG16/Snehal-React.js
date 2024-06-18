@@ -8,7 +8,7 @@ import { IoIosLink } from "react-icons/io";
 function Footer (){
   return(
    <div className="last">
-      <div style={{display:"flex",justifyContent:"space-evenly"}}>
+      {/* <div style={{display:"flex",justifyContent:"space-evenly"}}>
       <div className='one'>
          <h1>LOGO</h1>
          <img src="https://drive.google.com/file/d/1xrlt5xzEp3CbnRSNr_pzkulU47NUJLkb/view?usp=drive_link" alt="" />
@@ -34,15 +34,25 @@ function Footer (){
          <p>CARD DECORATION</p>
       </div>
       
-      </div>
-      <hr />
-     <p>OUR SERIVECE</p>
-     <PiFireSimpleBold  style={{margin: "70px 10px",fontSize:"40px"}}/>
-     <GiFireSilhouette style={{margin: "70px 10px",fontSize:"40px"}} />
-     <FcWiFiLogo style={{margin: "70px 10px",fontSize:"40px"}}/>
-     <FaSquareInstagram style={{margin: "70px 10px",fontSize:"40px"}}/>
-     <FcAbout style={{margin: "70px 10px",fontSize:"40px"}}/>
-     <IoIosLink style={{margin: "70px 10px",fontSize:"40px", color:"black"}}/>
+      </div> */}
+      <footer className="footer" >
+	<div className="waves">
+		<div className="wave" id="wave1"></div>
+		<div className="wave" id="wave2"></div>
+		<div className="wave" id="wave3"></div>
+		<div class="wave" id="wave4"></div>
+	</div>
+
+	<ul className="menu">
+		<li className="menu__item"><a className="menu__link" href="#">Home</a></li>
+		<li className="menu__item"><a className="menu__link" href="#">About us</a></li>
+		<li className="menu__item"><a className="menu__link" href="#">Contact us</a></li>
+
+
+	</ul>
+	<p style={{opacity: 0.75}}>Made with 🤍 by ARTSY_WITSY_BY_SNEHAL</p>
+
+</footer>
    
    </div>
   )

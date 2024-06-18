@@ -3,6 +3,7 @@ function Content (){
        <div>
            <footer style={{display:"flex"}}>
                <div className="box1">
+                  <h1>ARTSY_WITSY_BY_SNEHAL</h1>
                   <h1>EXPLORE FURTHER</h1>
                    <p>
 Global web icon
