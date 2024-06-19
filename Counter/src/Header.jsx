@@ -2,7 +2,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FcAbout } from "react-icons/fc";
 import { IoIosLink } from "react-icons/io";
 import './App.css';
-export default Header;
+
 function Header (){
     return(
         <div style={{position:"fixed",backgroundcolor:"#006769",height:"100px"}}>
@@ -20,7 +20,10 @@ function Header (){
                <IoIosLink style={{margin: "25px 10px",fontSize:"40px", color:"black"}}/>
     
             </header>
+            
         </div>
+        
+
     )    
 }
-// page
+export default Header;
