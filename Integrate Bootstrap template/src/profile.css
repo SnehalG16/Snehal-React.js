@@ -1,0 +1,20 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:  #543310;
+}
+.cnt
+{
+    height: 537px;  
+    width: 1000px;
+    box-shadow: 1px 5px 15px 15px #74512D;
+    margin: auto;
+    background-color: white;
+}
+.icons{
+    font-size: 25px;
+    color: #543310;
+}
