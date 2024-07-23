@@ -14,8 +14,8 @@ const Product = () => {
     axios.get("http://localhost:3000/Product", {
       params:
       {
-       //  _page: page,
-         //_limit: 2,
+         _page: page,
+        _limit: 2,
         category: categoryoption,
         _sort: "price",
         _order: order,

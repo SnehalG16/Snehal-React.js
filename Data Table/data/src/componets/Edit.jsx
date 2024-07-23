@@ -3,16 +3,18 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 
-const initalvalue={
-  image:"",
-  title:"",
-  description:"",
-  Category:"",
-  price:"",
-}
+
 const Edit =()=>{
     const {id}=useParams()
+    const initalvalue={
+      image:"",
+      title:"",
+      description:"",
+      Category:"",
+      price:"",
+    }
   const [formdata,setformdata]=useState(initalvalue)
+
   const{title,image,Category,description,price}=formdata
 
   const handelchange=(e)=>{
@@ -46,11 +48,11 @@ const Edit =()=>{
        <div>
         <form onSubmit={(e)=>handlesubmit(e)}>
           <label htmlFor="">image :-</label>
-          <input name="image" value={image} type="text" placeholder="Image" /> <br /><br />
+          <input name="image" value={image} type="text" onChange={(e)=>handelchange(e)} placeholder="Image" /> <br /><br />
           <label htmlFor="">title :-</label>
-          <input name="title" value={title}type="text" placeholder="title" /> <br /><br />
+          <input name="title" value={title}type="text" placeholder="title" onChange={(e)=>handelchange(e)} /> <br /><br />
           <label htmlFor="">Category :-</label>
-          <select name="Category" value={Category}>
+          <select name="Category" value={Category} onChange={(e)=>handelchange(e)}>
             <option value={""}>select Your Category</option>
             <option value={"men's clothing"}>men's clothing</option>
             <option value={"jewelery"}>jewelery</option>
@@ -58,10 +60,10 @@ const Edit =()=>{
             <option value={"women's clothing"}>women's clothing</option>
           </select><br /><br />
           <label htmlFor="">price :-</label>
-          <input name="price" value={price} type="text" placeholder="Price" /> 
+          <input name="price" value={price} type="text" placeholder="Price" onChange={(e)=>handelchange(e)}/> 
           <br /><br />
           <label htmlFor="">description :-</label>
-          <input name="description" value={description} type="text" placeholder="description" /> <br /><br />
+          <input name="description" value={description} type="text" placeholder="description" onChange={(e)=>handelchange(e)}/> <br /><br />
           <input type="submit"/>
         </form>
       </div>
