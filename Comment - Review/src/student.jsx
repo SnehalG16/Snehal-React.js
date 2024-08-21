@@ -105,7 +105,7 @@ const student = () => {
         <br />
         <input
           type="submit"
-          style={{ justifyContent: "center", marginLeft: "85px" }}
+          style={{ justifyContent: "center", marginLeft: "5px" }}
         />
       </form>
     </div>
