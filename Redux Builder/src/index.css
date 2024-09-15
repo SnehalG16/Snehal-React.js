@@ -1,0 +1,16 @@
+.light_theme {
+    color: rgb(233, 242, 106);
+    background-color: white;
+  }
+  
+  .dark_theme {
+    color: white;
+     background-image: url("https://www.spadequotes.com/wp-content/uploads/2024/01/Yellow-Captions-for-Your-Instagram.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    height:100vh;
+    width: 100%;
+
+
+  }
+  
