@@ -1,5 +1,3 @@
-// Counter.jsx
-
 import React from 'react';
 import CounterValue from './CounterValue';
 import { useSelector } from 'react-redux';
